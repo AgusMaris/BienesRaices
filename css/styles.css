@@ -90,6 +90,11 @@ img{
     align-items:center;
     padding-top: 3rem;
 }
+
+.site-header{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
 .site-header.inicio{
     background-image: url(/img/header.jpg);
     background-position: center center;
@@ -303,4 +308,17 @@ superior */
     padding:3rem 0;
     display: flex;
     justify-content: space-between;
+}
+
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 1/2 fraccion para cada una */
+    grid-column-gap:2rem ;
+}
+
+.texto-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin:0;
+    padding: 3rem 0;
 }
