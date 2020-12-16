@@ -91,7 +91,7 @@ img{
     padding-top: 3rem;
 }
 .site-header.inicio{
-    background-image: url(/img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center center;
     /* al ponerle cover, forzamos a cambiarle el tamaño a la imagen para cubrir
     por completo su contenedor */
